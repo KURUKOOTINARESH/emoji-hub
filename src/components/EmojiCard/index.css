@@ -1,0 +1,47 @@
+.emoji-card{
+    box-shadow: 0px 4px 8px 0px #808080;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 320px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+.emoji-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.emoji{
+    font-size: 62px;
+    line-height: 0%;
+}
+.emoji-name{
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    font-weight: 700;
+}
+.emoji-details-container{
+
+}
+.emoji-details{
+    font-size: 12px;
+    color: #808080;
+    text-align: left;
+}
+.emoji-details>span{
+    font-size: 12px;
+    color: black;
+}
+.emoji-img-container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    overflow-y: auto;
+}
